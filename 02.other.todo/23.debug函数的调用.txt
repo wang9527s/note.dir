@@ -1,0 +1,9 @@
+
+# perf 查看函数的调用
+    sudo apt install linux-perf
+    sudo perf_4.19 top -g -p `pidof dde-dock`
+
+# gdb
+sudo gdb -p `pidof dde-launcher`
+    i thread                       # 查看线程
+    thread apply all bt            # 查看堆栈

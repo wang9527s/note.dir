@@ -1,0 +1,4 @@
+TODO: 和窗管工具那一节合并    
+
+	sudo udevadm monitor                # 监听外设的插拔 udev的日志
+    sudo evtest                         # 监听外设
