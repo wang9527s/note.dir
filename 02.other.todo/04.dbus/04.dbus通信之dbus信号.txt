@@ -1,6 +1,0 @@
-1. dbus信号的广播和单播
-2. qdbus信号的接收                                          # qtdemo/qdbus
-    只接收服务端的dbus信号，无法响应dbus-send等工具发送的信号
-3. go中的dbus                                              # go-study/dbus
-    可以监听dbus-send的信号
-

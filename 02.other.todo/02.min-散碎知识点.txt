@@ -31,3 +31,5 @@ systemctl查看系统服务的状态，有些必须加上 --user
     chsh -s /bin/bash
 sudo iptables -t mangle -L						# iptables	网络
 qdbus org.kde.KWin /KWin showDebugConsole		# deepin：窗管的工具软件
+Ventoy制作启动盘		sudo sh Ventoy2Disk.sh -i /dev/sdb
+屏保确实是用来保护屏幕的							# 没想到竟然真的是一个正经的保护程序
