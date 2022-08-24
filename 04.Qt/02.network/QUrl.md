@@ -1,12 +1,13 @@
 
 #### QUrl的组成
 
-
 #### Qurl和QurlQuery的搭配使用方法
+
 ```cpp
 //以?为分隔，其前部分为不带QurlQuery的Url，其后部分为QurlQuery部分。
 QUrl("https://www.foo.com?email=foo@bar.com&pass=secret")
 ```
+
 ```cpp
 //向QUrl中添加QUrlQuery
 QUrl url("https://www.foo.com");

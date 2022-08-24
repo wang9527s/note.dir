@@ -1,4 +1,4 @@
-### 3、UDP发送
+### UDP发送
 ```cpp
 QByteArray array;
 QUdpSocket * sender=new QUdpSocket;

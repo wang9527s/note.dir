@@ -27,11 +27,10 @@ QObject::connect(socket, &QTcpSocket::readyRead,
     });
 ```
 
-----------
-
-
 ## 服务器
+
 当有客户端连接时，发送hello NetWork给客户端
+
 ```cpp
 #include <QtNetwork>
 QTcpServer *tcpServer = new QTcpServer();
@@ -64,7 +63,4 @@ connect(tcpServer, &QTcpServer::newConnection,
 #endif
 ```
 
-
-作者 [@wangbin][3]     
-2018 年 8月 22日 
 
