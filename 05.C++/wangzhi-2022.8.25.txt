@@ -536,9 +536,6 @@ https://www.cnblogs.com/lrxing/p/5535601.html
 json在线解析
 https://www.sojson.com/
 
-汪斌大佬git
-https://github.com/GitHub-wang9527
-
 
 deepin-repair-tools
 https://github.com/martyr-deepin/deepin-repair-tools
@@ -562,6 +559,9 @@ https://vanxkr.com/2020/1/qt-map-json/
 
 
 
+
+逆向工程权威指南（书）
+https://www.bookstack.cn/read/reverse-engineering-for-beginners-zh/README.md
 
 
 
