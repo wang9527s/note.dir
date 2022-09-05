@@ -1,101 +1,7 @@
-[deepin-browser]
-
-https://github.com/nitroshare/qmdnsengine
-
-
-QT WA_TranslucentBackground CEF界面无法展现 透明无效
-https://blog.csdn.net/xiezhongyuan07/article/details/82502035
-
-Qt之QListView使用
-https://blog.csdn.net/pingis58/article/details/82759207?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.nonecase
-
-
-
-邢万里   不要在Linux下做你不知道的操作！谨记！------黄老师
-https://blog.csdn.net/Wanli_Xing
-
-QWidgetAction类详解
-https://blog.csdn.net/lengyuezuixue/article/details/81123516
-
-
-BP指针和SP指针的区别?
-https://zhidao.baidu.com/question/13139419.html
-
-
-
-[总结]多种方式探测内网存活主机
-https://www.cnblogs.com/-mo-/p/11908260.html
-
-
-网络安全实验2 信息搜集与主机发现
-https://blog.csdn.net/qq_37672864/article/details/102866808
-
-嵌入式图书《嵌入式Linux应用程序开发标准教程》完整PDF版下载
-http://emb.hqyj.com/xuexi/books/3369.html
-
-
-Linux Wi-Fi 编程
-https://blog.csdn.net/wintersweetforever/article/details/78958448?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-14.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-14.control
 
 
 Qt/Project/
 https://github.com/lesliefish/Qt/tree/master/Project
-
-
-QLabel自动换行（支持中英文）
-https://blog.csdn.net/lvdepeng123/article/details/84841689
-
-
-Qt源码分享（一）-- 圆角+阴影+可移动+大小可变
-https://zhuanlan.zhihu.com/p/89589678
-
-【QT】添加图片资源并使用QImage加载图片显示
-https://www.cnblogs.com/lcgbk/p/13259754.html
-
-
-QPair 的用法
-https://blog.csdn.net/Superman___007/article/details/89335836
-
-
-QT高级01----自定义日志工具
-https://www.cnblogs.com/vczf/p/12599139.html
-
-
-Qt——线程与定时器
-https://www.cnblogs.com/hellovenus/p/qt_thread_timer.html
-
-QT DBUS: NOT CONNECTED TO D-BUS SERVER, 注意SOURCE /ETC/PROFILE
-https://www.cnblogs.com/crazyghostvon/p/qtdbusnotconnect.html
-
-
-dbus服务自启动方法
-https://www.cnblogs.com/sbchen/p/10095338.html
-
-
-
-DEB软件包结构分析
-https://wenku.baidu.com/view/0e36c618b80d6c85ec3a87c24028915f804d8400.html
-
-
-QT生成与解析JSON数据，包含JSON数组
-https://blog.csdn.net/rong11417/article/details/104252927
-
-
-C++多态到底是什么（通俗易懂）
-http://c.biancheng.net/view/264.html
-
-
-
-有哪些你看了以后大呼过瘾的编程书？
-https://www.zhihu.com/question/50408698/answer/2021255142
-
-
-KindMans
-https://github.com/KindMans
-
-小熊猫C++ 0.13.2 
-https://bbs.deepin.org/post/230453
-
 
 400 行 C 代码实现一个虚拟机
 https://mp.weixin.qq.com/s/09fIouiuCoWC9j9Fzo1a_g
@@ -103,171 +9,32 @@ https://mp.weixin.qq.com/s/09fIouiuCoWC9j9Fzo1a_g
 一位大佬对于 Qt 学习的最全总结（三万字干货）
 https://mp.weixin.qq.com/s/z0QY26H2nhlQyhMrlx01xg
 
-
-Linux应用程序直接调用I2C控制器实现的设备驱动
-https://blog.csdn.net/jklinux/article/details/80888717?spm=1035.2023.3001.6557&utm_medium=distribute.pc_relevant_bbs_down.none-task-blog-2~default~OPENSEARCH~Rate-2.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task-blog-2~default~OPENSEARCH~Rate-2.nonecase
-
-
-应用上i2c通过调用ioctl来读写设备
-https://blog.csdn.net/qq_32419007/article/details/87384262?spm=1035.2023.3001.6557&utm_medium=distribute.pc_relevant_bbs_down.none-task-blog-2~default~OPENSEARCH~Rate-6.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task-blog-2~default~OPENSEARCH~Rate-6.nonecase
-
-
-Linux i2c子系统应用之Linux ARM嵌入式i2c通信（用i2c设备总线完成i2c从设备寄存器的配置）
-https://blog.csdn.net/psy6653/article/details/88393597?spm=1001.2101.3001.6650.7&utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-7.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromBaidu~Rate-7.pc_relevant_default&utm_relevant_index=12
-
-
-
-Linux下查看某个进程打开的文件数-losf工具常用参数介绍
-https://www.cnblogs.com/yinzhengjie/p/10004042.html
-
-
-
-DTK（Deepin Toolkit）
-https://linuxdeepin.github.io/dtk-docs/
-
-
-weidai11/cryptopp
-https://github.com/weidai11/cryptopp
-
-
-Linux QT调用静态库文件和动态库文件
-https://blog.csdn.net/u014734032/article/details/123084744
-
-
-QT 编写简单的DNS解析与MDNS
-https://www.freesion.com/article/32861232942/
-
-Qt 扁平化MainWindow以及自定义标题栏
-https://blog.csdn.net/u014156690/article/details/49751425?spm=1001.2101.3001.6650.9&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9-49751425-blog-80506853.pc_relevant_multi_platform_featuressortv2dupreplace&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-9-49751425-blog-80506853.pc_relevant_multi_platform_featuressortv2dupreplace&utm_relevant_index=12
-
-
-Qt实现自定义窗口样式
-https://www.jianshu.com/p/1b91fd2beb85
-
-
-nitroshare/qmdnsengine
-https://github.com/nitroshare/qmdnsengine
-
-QT实现DNS报文解析
-https://blog.csdn.net/selous/article/details/53267927
-
-
-CMakeLists.txt 构建 Qt工程
-https://blog.csdn.net/xinjiang666/article/details/105722814
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[google-browser]
-
-从C语言到C++
-http://c.biancheng.net/cplus/c2cpp/
-
 飞扬青云 / Qt开发经验
 https://gitee.com/feiyangqingyun/qtkaifajingyan#13121-130
 
-
-ManateeLazyCat 
-https://www.jianshu.com/u/E6EbkP
+「生活可以更简单, 欢迎来到我的开源世界」
 https://manateelazycat.github.io/
-
-
-git小白非常适合的一个练习
-https://www.jianshu.com/p/59e66364ea6e
 
 Linux下的tty和pts详解
 https://blog.csdn.net/mountzf/article/details/51735691
 
-
-KDE/konsole
-https://github.com/KDE/konsole
-
-
-learn git branching
-https://learngitbranching.js.org/?demo=&locale=zh_CN
-
-
 详细，Qt Creator快捷键大全，附快捷键配置方法
 https://www.cnblogs.com/senior-engineer/p/5618582.html
-
-
-QT中的相对位置，绝对位置之间的转换(maptoglobal,mapfromglobal)
-https://www.bbsmax.com/A/D854gE7WJE/
-
-
-Xmind教程：思维导图原来这么简单实用！
-https://www.jianshu.com/p/7c488d5e4bdf
 
 QT窗口置顶/真透明/背景模糊/非矩形/跳过任务栏分页器/无边框/无焦点点击/焦点穿透
 https://www.cnblogs.com/findumars/p/5554014.html
 
 
-任务栏位置（上下左右）获取
-https://blog.csdn.net/u014134886/article/details/52864773
-
-
-QDBus实现只运行一个程序并在新标签打开文本
-https://blog.csdn.net/sonichty/article/details/83180801
-
-
-
-Qt浅谈之二十七进程间通信之QtDBus
-https://blog.csdn.net/taiyang1987912/article/details/45642079?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2
-
-
-QtDBus编程详解
-https://blog.csdn.net/zb872676223/article/details/38084179?depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-4&utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-4
-
-
-Qt isNull和isEmpty的区别
-https://blog.csdn.net/guoqianqian5812/article/details/50241205
-
-
-Qt动画效果的实现，QPropertyAnimation
-https://www.cnblogs.com/lvdongjie/p/4366092.html
-
-
+## 拉伸
 QT无边框窗口可拉伸，拉伸范围在屏幕可视化范围内
 https://blog.csdn.net/frieryumao/article/details/98733836
-
-
 Qt实现窗口的无边框化且可拉伸大小
 https://blog.csdn.net/wjh_init/article/details/79244222
-
-
-Qt中mouseMoveEvent无效
-https://www.cnblogs.com/cthu/p/5114408.html
-
-
 Qt 之 自定义窗口标题栏 之 窗口拉伸
 https://blog.csdn.net/GoForwardToStep/article/details/77887777?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2
 
-
-21款最佳Linux命令行终端工具
-https://blog.csdn.net/gatieme/article/details/51892884
-
+Qt动画效果的实现，QPropertyAnimation
+https://www.cnblogs.com/lvdongjie/p/4366092.html
 
 QT 学习之路 2（48）：QSORTFILTERPROXYMODEL
 https://www.devbean.net/2013/04/qt-study-road-2-qsortfilterproxymodel/
@@ -275,15 +42,11 @@ https://www.devbean.net/2013/04/qt-study-road-2-qsortfilterproxymodel/
 Qt QStandardItemModel用法（超级详细）
 http://c.biancheng.net/view/1869.html
 
-
 Qt工作笔记-进程间的通信（通过QSharedMemory）
 https://blog.csdn.net/qq78442761/article/details/81738155
 
 QT学习QCommandLineParser与QCommandLineOption
 https://blog.csdn.net/zhaoyun_zzz/article/details/90243437
-
-PyQt(Python+Qt)学习随笔：QWidget部件的palette属性以及ColorGroup、colorRole的用途和含义
-https://blog.csdn.net/LaoYuanPython/article/details/105197626
 
 QT界面 使用QStyledItemDelegate QPainter QStyleOptionViewItem QModelIndex组合实现项的绘制
 https://www.cnblogs.com/zhangdewang/p/9285316.html
@@ -291,14 +54,11 @@ https://www.cnblogs.com/zhangdewang/p/9285316.html
 Qt 学习之路：QSortFilterProxyModel
 https://www.cnblogs.com/lvdongjie/p/4809606.html
 
-
 Qt处理JSON数据(含数组)并保存至excel表格
 https://www.jianshu.com/p/2cf378e0c606
 
-
 QJsonObject和QJsonArray的巨坑
 https://www.bbsmax.com/A/ZOJP123a5v/
-
 
 Qt内存管理(二) qDeleteAll与clear
 https://blog.csdn.net/yao5hed/article/details/81092139
@@ -306,42 +66,23 @@ https://blog.csdn.net/yao5hed/article/details/81092139
 10个创意的SVG Button 点击特效
 https://blog.csdn.net/clschen/article/details/51491562
 
-tty命令详解
-https://www.cnblogs.com/machangwei-8/p/10403798.html
-
-LC_ALL=C的含义
-https://www.cnblogs.com/wajika/p/6592659.html
-
-c++11 类默认函数的控制："=default" 和 "=delete"函数
-https://www.cnblogs.com/lsgxeva/p/7787438.html
-
-
-Qt 如何关闭子对话框，并且将对话框指针为NULL？
-https://ask.csdn.net/questions/1010808
-
-
 Qt::Key键盘按键详细说明！！
 https://blog.csdn.net/judgejames/article/details/93191524
-
 
 linux下编译qt5.6.0静态库——configure配置
 https://www.cnblogs.com/oloroso/p/5407779.html
 
-
 ATSPI(Dogtail)学习研究
 https://www.doc88.com/p-9761501744391.html
 
-
 QListView自定义Item
 https://blog.csdn.net/a844651990/article/details/84324560?utm_medium=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-2.nonecase&depth_1-utm_source=distribute.pc_relevant_bbs_down.none-task-blog-baidujs-2.nonecase
-
 
 微信公众号： 张小飞那些事儿
 https://www.zhihu.com/people/cryfeifei
 
 QListView QAbstractListModel QStyledItemDelegate 定制化列表
 https://blog.csdn.net/u010906468/article/details/104736764
-
 
 QStyledItemDelegate类的使用
 https://blog.csdn.net/j8121/article/details/51931633
@@ -356,14 +97,11 @@ https://www.devbean.net/2012/03/qtcreator-plugin-develop-catalog/
 可变参模板template
 https://www.cnblogs.com/-citywall123/p/12722535.html
 
-
 Linux 伪终端(pty)
 https://www.cnblogs.com/sparkdev/p/11605804.html
 
-
 Qt文档阅读笔记-Q_CLASSINFO官方解析与实例
 https://blog.csdn.net/qq78442761/article/details/83006645
-
 
 Qt浅谈之二十七进程间通信之QtDBus good
 https://www.cnblogs.com/findumars/p/5782448.html
@@ -371,25 +109,17 @@ https://www.cnblogs.com/findumars/p/5782448.html
 QtCursor::setPos设置光标位置的方法
 https://www.cnblogs.com/Qt-UI/p/13210709.html
 
-
-更新到新DTK版终端遇到的一些问题
-https://bbs.deepin.org/post/201257#mod=viewthread&tid=201257&extra=page=1
-
 Linux释放内存空间
 https://www.cnblogs.com/liqing1009/p/9772051.html
-
 
 martyr-deepin/deepin-terminal-gtk
 https://github.com/martyr-deepin/deepin-terminal-gtk
 
-
 如何学习《操作系统设计与实现（第三版）》这本书？
 https://www.zhihu.com/question/19957592
 
-
 设计模式
 https://refactoringguru.cn/design-patterns
-
 
 6大设计原则及23种设计模式
 https://www.processon.com/view/link/5ebac2241e08530a9bf4b169#map
@@ -399,7 +129,6 @@ https://github.com/search?q=dde-control-center%0A
 
 QWidget设置窗口背景图片的几种方法
 https://baijiahao.baidu.com/s?id=1625725042120987082&wfr=spider&for=pc
-
 
 Qt之实现图片轮播效果
 https://blog.csdn.net/goforwardtostep/article/details/79212468
@@ -413,47 +142,20 @@ https://www.cnblogs.com/linuxAndMcu/p/11347397.html
 Qt 之 设置窗口边框的圆角（使用QSS和PaintEvent两种方法）
 https://www.cnblogs.com/findumars/p/6206182.html
 
-
 double转int精度丢失
 https://bbs.csdn.net/topics/380168487
 
 Qt中实现单例模式（SingleTon）
 https://www.cnblogs.com/codingmylife/archive/2010/07/14/1777409.html
 
-
 Qt 单例模式
 http://t.zoukankan.com/jiangson-p-11309957.html
-
-
-linuxdeepin/dde-launcher
-https://github.com/linuxdeepin/dde-launcher
-
-
-Linux: 软件包管理工具 apt-get 命令（Debian/Ubuntu）
-https://blog.csdn.net/xietansheng/article/details/80044644
-
-
-apt-get 详解&&配置阿里源
-https://www.jianshu.com/p/fb337765c2c2
-
-apt-get下载、安装的软件在哪里
-https://www.cnblogs.com/hanxing/p/3996103.html
-
-QT QProcess执行终端命令并实时输出回显
-https://blog.csdn.net/weixin_43690347/article/details/84146821
-
-
-软件安装与apt-get下载软件的存放位置
-https://blog.csdn.net/the_fool_/article/details/80514179
 
 DBus daemon 启动（三）
 https://blog.csdn.net/u012385733/article/details/80881343
 
-
-
 qdbus之路，polkit qt5
 https://www.morfans.cn/archives/2456
-
 
 QT DBUS: Not connected to D-Bus server, 注意source /etc/profile
 https://blog.csdn.net/weixin_30951743/article/details/99992533
@@ -461,10 +163,8 @@ https://blog.csdn.net/weixin_30951743/article/details/99992533
 在终端中运行.desktop文件
 https://qastack.cn/ubuntu/5172/running-a-desktop-file-in-the-terminal
 
-
 DpkgTriggers
 https://wiki.debian.org/DpkgTriggers
-
 
 cmake：使用execute_process调用shell命令或脚本
 https://blog.csdn.net/qq_28584889/article/details/97758450?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.control
@@ -475,26 +175,14 @@ https://www.jianshu.com/p/51aa5c613c93?from=singlemessage
 QThread使用——关于run和movetoThread的区别
 https://blog.csdn.net/an505479313/article/details/50351745
 
-
 如何在linux（ubuntu）下安装source insight
 https://blog.csdn.net/zengfenliang/article/details/78255093
 
-
-深度桌面操作系统架构设计
-https://blog.csdn.net/liang19890820/article/details/114006299?share_token=f30f56b8-189a-430d-8982-1beaaf69bec6&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share?=
-
-
-
-
-
-[360-browser]
 JimmyJay2015/Qt-SyncWoker
 https://github.com/JimmyJay2015/Qt-SyncWoker
 
-
 Qt学习笔记之--Qt内置图标一览表
 https://blog.csdn.net/wh_19931117/article/details/80444107
-
 
 Qt核心剖析：信息隐藏
 https://www.cnblogs.com/zhoug2020/p/14330657.html
@@ -505,37 +193,29 @@ https://blog.csdn.net/qq_24127015/article/details/104412800
 QtQQ
 https://github.com/Blackmamba-xuan/QtQQ
 
-
 Qt(开源集合)
 https://gitee.com/qt-open-source-collection
 
 qtkaifajingyan
 https://github.com/feiyangqingyun/qtkaifajingyan
 
-
 QtExamples
 https://github.com/XMuli/QtExamples
-
 
 dpkg
 https://salsa.debian.org/dpkg-team/dpkg
 
-
 本篇文章介绍，Qt开发环境下QJson库的使用示例，JSON解析配合API接口，就可以实现一些有趣的工具了，如全国油价查询工具，全国天气查询，空气质量查询，黄历查询，生活指数等等实用工具的开发。
 https://www.cnblogs.com/whik/p/11234889.html
-
 
 [Qt]获取DBus方法的调用者信息 //智国博客
 https://blog.csdn.net/shawzg/article/details/118528785
 
-
 C++实现base64编码
 https://www.cnblogs.com/lrxing/p/5535601.html
 
-
 json在线解析
 https://www.sojson.com/
-
 
 deepin-repair-tools
 https://github.com/martyr-deepin/deepin-repair-tools
@@ -554,135 +234,5 @@ https://www.cnblogs.com/xiangtingshen/p/11005391.html
 
 Qt QVariantMap与QJsonObject互转
 https://vanxkr.com/2020/1/qt-map-json/
-
-
-
-
-
-
-逆向工程权威指南（书）
-https://www.bookstack.cn/read/reverse-engineering-for-beginners-zh/README.md
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
