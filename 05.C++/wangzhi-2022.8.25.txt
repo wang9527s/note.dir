@@ -33,6 +33,10 @@ https://blog.csdn.net/wjh_init/article/details/79244222
 Qt 之 自定义窗口标题栏 之 窗口拉伸
 https://blog.csdn.net/GoForwardToStep/article/details/77887777?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-2
 
+
+深度桌面操作系统架构设计
+https://blog.csdn.net/liang19890820/article/details/114006299?share_token=f30f56b8-189a-430d-8982-1beaaf69bec6&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share?=
+
 Qt动画效果的实现，QPropertyAnimation
 https://www.cnblogs.com/lvdongjie/p/4366092.html
 
