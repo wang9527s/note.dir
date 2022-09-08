@@ -70,12 +70,6 @@ https://blog.csdn.net/yao5hed/article/details/81092139
 10个创意的SVG Button 点击特效
 https://blog.csdn.net/clschen/article/details/51491562
 
-Qt::Key键盘按键详细说明！！
-https://blog.csdn.net/judgejames/article/details/93191524
-
-linux下编译qt5.6.0静态库——configure配置
-https://www.cnblogs.com/oloroso/p/5407779.html
-
 ATSPI(Dogtail)学习研究
 https://www.doc88.com/p-9761501744391.html
 
@@ -218,25 +212,8 @@ https://blog.csdn.net/shawzg/article/details/118528785
 C++实现base64编码
 https://www.cnblogs.com/lrxing/p/5535601.html
 
-json在线解析
-https://www.sojson.com/
-
 deepin-repair-tools
 https://github.com/martyr-deepin/deepin-repair-tools
 
-Qt文本操作（按行读写）
-https://blog.csdn.net/weixin_33672109/article/details/93510104
-
-QVariantMap遍历
-https://blog.csdn.net/quietbxj/article/details/119956359
-
-QT5中Json文件与QString的相互转化
-https://www.cnblogs.com/pozhu15/p/12525102.html
-
-QT5 Json简介
-https://www.cnblogs.com/xiangtingshen/p/11005391.html
-
-Qt QVariantMap与QJsonObject互转
-https://vanxkr.com/2020/1/qt-map-json/
 
 
