@@ -33,7 +33,8 @@ cmakelists
     execute_process  调用命令和脚本
 
 C++浮点数float转int精度丢失解决
-    float tt = 65.533;              // 内存中的实际存储是 65.5329971
+    // round 对float进行四舍五入
+    float tt = 65.5329971;              // 内存中的实际存储是 65.5329971
     int ans = static_cast<int>(1000*tt);        //65532
     int ans2 = static_cast<int>(round(1000*tt));    //65533
 
