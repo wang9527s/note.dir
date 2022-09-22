@@ -103,10 +103,10 @@ int pthread_mutex_init(
 ```
 
 ```cpp
-int pthread_mutex_lock()(pthread_mutex_t *mutex)	//上锁，若不成功则等待
-int pthread_mutex_trylock()(pthread_mutex_t *mutex)	//上锁，若不成功则返回失败
-int pthread_mutex_unlock()(pthread_mutex_t *mutex)	//解锁
-int pthread_mutex_destroy()(pthread_mutex_t *mutex)	//删除互斥锁
+int pthread_mutex_lock()(pthread_mutex_t *mutex)    //上锁，若不成功则等待
+int pthread_mutex_trylock()(pthread_mutex_t *mutex)    //上锁，若不成功则返回失败
+int pthread_mutex_unlock()(pthread_mutex_t *mutex)    //解锁
+int pthread_mutex_destroy()(pthread_mutex_t *mutex)    //删除互斥锁
 
 ```
 
@@ -120,12 +120,12 @@ int pthread_mutex_destroy()(pthread_mutex_t *mutex)	//删除互斥锁
 
 ```cpp
 P操作（申请资源）：Sem-1，（Sem可用资源的个数）
-	若>=0，则本进程继续，
-	若< 0，则阻塞
-	
+    若>=0，则本进程继续，
+    若< 0，则阻塞
+    
 V操作（释放资源）：Sem+1，
-	若> 0，则继续（表示资源s还有，即没有线程因为资源s被阻塞，所以不需用唤醒，继续运行）
-	若<=0，则唤醒队列中一个因为P操作而阻塞的进程，然后继续本进程
+    若> 0，则继续（表示资源s还有，即没有线程因为资源s被阻塞，所以不需用唤醒，继续运行）
+    若<=0，则唤醒队列中一个因为P操作而阻塞的进程，然后继续本进程
 ```
 
 #### 2、函数
@@ -134,7 +134,7 @@ V操作（释放资源）：Sem+1，
 #include<semaphore.h>
 
 1、初始化信号量
-sem_t *sem;		//信号量对象
+sem_t *sem;        //信号量对象
 int sem_init(
         &sem, 
         0, 
@@ -144,11 +144,11 @@ int sem_init(
 ```cpp
 //函数返回值：成功：0、失败：-1
 
-int sem_wait(sem_t *sem)	//P操作，若不成功则等待
-int sem_trywait(sem_t *sem)	//P操作，若不成功则返回错误，并不会阻塞线程
-int sem_post(sem_t *sem)	//V操作，并释放一个阻塞的线程
+int sem_wait(sem_t *sem)    //P操作，若不成功则等待
+int sem_trywait(sem_t *sem)    //P操作，若不成功则返回错误，并不会阻塞线程
+int sem_post(sem_t *sem)    //V操作，并释放一个阻塞的线程
 
 int sem_getvalue(sem_t *sem)//获取信号量的值
-int sem_destroy(sem_t *sem)	//删除信号量
+int sem_destroy(sem_t *sem)    //删除信号量
 
 ```

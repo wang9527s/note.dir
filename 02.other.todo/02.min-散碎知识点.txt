@@ -24,12 +24,12 @@ sudo systemctl hibernate                        # 休眠命令
 bcompare=4.4.3-26655设置取消时间戳比较: Rules->取消Compare timestamps的勾选
 Windows和Linux都支持NTFS文件格式
 systemctl查看系统服务的状态，有些必须加上 --user 
-	systemctl status systemd-timesyncd.service
-	systemctl --user  status pulseaudio.service
+    systemctl status systemd-timesyncd.service
+    systemctl --user  status pulseaudio.service
 切换bash 和 查看bash
     echo $SHELL
     chsh -s /bin/bash
-sudo iptables -t mangle -L						# iptables	网络
-qdbus org.kde.KWin /KWin showDebugConsole		# deepin：窗管的工具软件
-Ventoy制作启动盘		sudo sh Ventoy2Disk.sh -i /dev/sdb
-屏保确实是用来保护屏幕的							# 没想到竟然真的是一个正经的保护程序
+sudo iptables -t mangle -L                        # iptables    网络
+qdbus org.kde.KWin /KWin showDebugConsole        # deepin：窗管的工具软件
+Ventoy制作启动盘        sudo sh Ventoy2Disk.sh -i /dev/sdb
+屏保确实是用来保护屏幕的                            # 没想到竟然真的是一个正经的保护程序

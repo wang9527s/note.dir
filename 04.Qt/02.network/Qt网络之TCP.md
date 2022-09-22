@@ -21,8 +21,8 @@ QObject::connect(socket, &QTcpSocket::readyRead,
         qDebug()<<"str:"<<str<<"a:"<<a;
     #endif
     #if 1
-		QByteArray byte = socket->readAll();
-		qDebug() << byte;	//输出："\x00\x00\x01\x00"
+        QByteArray byte = socket->readAll();
+        qDebug() << byte;    //输出："\x00\x00\x01\x00"
 #endif
     });
 ```
