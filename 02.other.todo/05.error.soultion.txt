@@ -1,4 +1,4 @@
-knowledge-1: AppImage文件打开报错
+AppImage文件打开报错
     错误：The SUID sandbox helper binary was found, but is not configured correctly. \
         Rather than run without sandboxing I'm aborting now. \
         You need to make sure that /tmp/.mount_FluentHI3yPx/chrome-sandbox is owned \
@@ -12,12 +12,14 @@ knowledge-1: AppImage文件打开报错
         # sudo su 中执行 sudo echo 'kernel.unprivileged_userns_clone=1' > /etc/sysctl.d/userns.conf
 
 
-knowledge-1: Linux下的VMware虚拟机在启动时报错误。
+Linux下的VMware虚拟机在启动时报错误。
     错误输出：Could not open /dev/vmmon: No such file or directory.Please make sure that the kernel module `vmmon’ is loaded.
     解决方案：
         在blos中禁用secure boot                              // 失败
         sudo vmware-modconfig --console --install-all       // ok
-        
+
+Linux卸载mware
+    sudo vmware-installer -u vmware-workstation
         
 qtcreator  error: CMake was unable to find a build program corresponding to "Ninja". CMAKE_MAKE_PROGRAM is not set. You probably need to select a different build tool.
     需要修改cmake配置
