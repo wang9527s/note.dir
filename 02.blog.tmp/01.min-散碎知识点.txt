@@ -33,3 +33,5 @@ sudo iptables -t mangle -L                        # iptables    网络
 qdbus org.kde.KWin /KWin showDebugConsole        # deepin：窗管的工具软件
 Ventoy制作启动盘        sudo sh Ventoy2Disk.sh -i /dev/sdb
 屏保确实是用来保护屏幕的                            # 没想到竟然真的是一个正经的保护程序
+sudo udevadm monitor                # 监听外设的插拔 udev的日志
+markdown教程：https://www.runoob.com/markdown/md-advance.html

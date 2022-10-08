@@ -14,7 +14,7 @@
 
 5. 图形化工具：dconf-eitor
 6. gsettings命令
-       gsettings get com.deepin.xsettings scale-factor
+    gsettings get com.deepin.xsettings scale-factor
     gsettings set com.deepin.xsettings scale-factor 1.25
     gsettings list-keys com.deepin.xsettings 
     
