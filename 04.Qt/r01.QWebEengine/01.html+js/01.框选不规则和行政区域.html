@@ -1,4 +1,4 @@
-```html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,11 +26,11 @@
             BMAP_NORMAL_MAP,
             BMAP_HYBRID_MAP
         ]}));      
-    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+    map.enableScrollWheelZoom(true);                // 开启鼠标滚轮缩放
     
-    map.addControl(new BMap.NavigationControl());//缩放平移控件
-    map.addControl(new BMap.ScaleControl());    //比例尺
-    map.addControl(new BMap.OverviewMapControl());//缩略图
+    map.addControl(new BMap.NavigationControl());   // 缩放平移控件
+    map.addControl(new BMap.ScaleControl());        // 比例尺
+    map.addControl(new BMap.OverviewMapControl());  // 缩略图
 
     //实现
     function showPic(e) {
@@ -38,10 +38,6 @@
         DigitalMap.onShowPic(e);
     }
      
-    var data_info = [
-        [120.283849, 38.582112, "我的厂房"],
-        [119.283849, 35.583112, "我的厂房2"]
-    ];
     var opts = {
         width : 250,     // 信息窗口宽度
         height: 80,     // 信息窗口高度
@@ -56,53 +52,39 @@
         });
     }
 
-    /*
-    //直接添加坐标点
-    for(var i=0;i<data_info.length;i++){
-        var marker = new BMap.Marker(new BMap.Point(data_info[i][0], data_info[i][1]));  // 创建标注
-        var content = '<div style="margin:0;line-height:20px;padding:2px;font-size:14px;">'
-     + '<input id="btn" type="button" value="厂房" onclick="showPic( \'1,qq,234\' )" style="background-color:rgb(183,53,53);color:white;border-radius:4px;border:1px solid rgb(121,121,121);">';
-        //showPic( \'1,qq,234\')    槽函数中使用\'传参，才可以最终调用qt的槽函数
-        map.addOverlay(marker);               //添加标注
-        addClickHandler(content, marker);
-    }
-    */
     function addPointPic(e) {
         var point = JSON.parse(e);
         var myIcon = new BMap.Icon("./icon.png", new BMap.Size(100, 100));
-        var marker = new BMap.Marker(new BMap.Point(point.x, point.y), { icon: myIcon });  // 创建标注
+        var marker = new BMap.Marker(new BMap.Point(point.x, point.y), { icon: myIcon });  // 创建标注
         var content = '<div style="margin:0;line-height:20px;padding:2px;font-size:14px;">'
      + '<input id="btn" type="button" value="厂房" onclick="showPic( \'1,qq,234\' )" style="background-color:rgb(183,53,53);color:white;border-radius:4px;border:1px solid rgb(121,121,121);">';
-        //showPic( \'1,qq,234\')    槽函数中使用\'传参，才可以最终调用qt的槽函数
-        map.addOverlay(marker);               //添加标注
+        //showPic( \'1,qq,234\')     // 使用\'传参，调用qt的槽函数
+        map.addOverlay(marker);      // 添加标注
         addClickHandler(content, marker);
     }
-
-
 
     //画矩形
     function getBoundary() {
         var bdary = new BMap.Boundary();
-        bdary.get("北京市海淀区", function (rs) {       //获取行政区域
-            map.clearOverlays();        //清除地图覆盖物       
-            var count = rs.boundaries.length; //行政区域的点有多少个
+        bdary.get("北京市海淀区", function (rs) {         // 获取行政区域
+            var count = rs.boundaries.length;           // 行政区域的点有多少个
             if (count === 0) {
                 alert('未能获取当前输入行政区域');
                 return;
             }
             var pointArray = [];
-            alert(count);
+            // alert(count);
             for (var i = 0; i < count; i++) {
-                var ply = new BMap.Polygon(rs.boundaries[i], { strokeWeight: 2, strokeColor: "#ff0000" }); //建立多边形覆盖物
+                var ply = new BMap.Polygon(rs.boundaries[i], { strokeWeight: 2, strokeColor: "#ff0000" }); 
                 map.addOverlay(ply);  //添加覆盖物
-                //////////////////////
+                
                 ply.addEventListener('mouseover', function () { map.addOverlay(label) })
                 ply.addEventListener('mouseout', function () { map.removeOverlay(label) })
-                //////////////////////
+                
                 pointArray = pointArray.concat(ply.getPath());
             }
             map.setViewport(pointArray);    //调整视野
-            var label = new BMap.Label('文字内容', { position: map.getCenter() })////////////////////////
+            var label = new BMap.Label('文字内容', { position: map.getCenter() })
         });
 
 
@@ -118,10 +100,8 @@
         map.addOverlay(ply);
     }
     setTimeout(function () {
-       // getBoundary();
-    //    getBoundary2();
-    }, 2000);//2s后执行getBoundary函数
-
-        
+        getBoundary();
+        getBoundary2();
+    }, 100);    
+       
 </script>
-```
