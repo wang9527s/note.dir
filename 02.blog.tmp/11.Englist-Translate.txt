@@ -1,5 +1,0 @@
-Hibernate休眠   Suspend待机
-
-int&         ->    non-const reference  引用
-const int&   ->    const reference      常引用
-
