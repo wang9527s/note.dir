@@ -21,6 +21,13 @@ https://zhuanlan.zhihu.com/p/516819910
 https://www.zhihu.com/question/545744966/answer/2597497794    
 
 
+malloc一次性最大能申请多大内存空间？ - 文礼的回答 - 知乎
+https://www.zhihu.com/question/20836462/answer/1750349532
+
+
+C++中外部函数如何访问私有变量？ - WhoTFAmI的回答 - 知乎
+https://www.zhihu.com/question/521898260/answer/2394522797
+
 
 cmakelists
     execute_process  调用命令和脚本
@@ -36,6 +43,7 @@ C++浮点数float转int精度丢失解决
 baidu.html: 判断点在圆内
 
 
+agv行业：AGV全名Automated Guided Vehicle，即自动导引车，装备有电磁、激光、SLAM、视觉等自动导航装置，能够沿规定的导航路径行驶，具有安全保护以及各种移载功能的运输车，主要用于工业。AGV不仅仅是一辆车，而是软硬一体的，智能化、数字化的为完成客户不同需求，匹配不同场景的一整套系统解决方案。
 
 
 
