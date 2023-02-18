@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>01.blogs on My blog</title>
+    <link>https://github-wang9527.github.io/01.blog/</link>
+    <description>Recent content in 01.blogs on My blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://github-wang9527.github.io/01.blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://github-wang9527.github.io/01.blog/20.%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2github-page%E5%92%8Chugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://github-wang9527.github.io/01.blog/20.%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2github-page%E5%92%8Chugo/</guid>
+      <description> 突然想弄一个blog网站玩一玩。 最后选择了静态网站+github page的方式，简单实用。 和hexo相比 hugo更好用，并且初始版本中没有太多的文件。
+1. hugo环境搭建 sudo apt install hugo # ubuntu源中的版本有点低，后来在官网中下载安装 hugo new site hugo-blog cd hugo-blog/themes git clone https://github.com/spf13/hyde.git cd .. hugo new blog环境搭建.md hugo server --theme=hyde --buildDrafts 然后localhost:1313就可以在浏览器中看到blog的首页了。
+2. github page 在git上建立一个aaa.github.io的仓库，aaa是自己的用户名称。 </description>
+    </item>
+    
+  </channel>
+</rss>
