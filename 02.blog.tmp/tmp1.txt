@@ -1,0 +1,59 @@
+
+rtos
+    没有进程的概念，没有用户态的概念
+    xip:即芯片内执行，是指程序直接在Flash闪存中取指、译码、执行，不必把代码读到系统RAM中。
+
+特斯拉选择 Linux 作为车载系统的原因是什么？ - 北极的回答 - 知乎
+https://www.zhihu.com/question/455892933/answer/1871622642    
+    
+系统调用函数实现内部是有锁保护的，大部分cpu中中断是原子类型，即中断不可以被中断
+
+什么是中断
+        中断的流程：发生中断，保存现场，处理中断，恢复现场
+    
+    
+https://github.com/ruanyf/weekly/issues/2584    
+    
+干货推荐 ：五万字长文总结 C/C++ 知识 - tcpisopen的文章 - 知乎
+https://zhuanlan.zhihu.com/p/516819910
+    
+到底是PIC主动把中断信号发给CPU，还是CPU在指令周期结束后主动去轮询中断信号？ - 陈浮克的回答 - 知乎
+https://www.zhihu.com/question/545744966/answer/2597497794    
+
+
+malloc一次性最大能申请多大内存空间？ - 文礼的回答 - 知乎
+https://www.zhihu.com/question/20836462/answer/1750349532
+
+
+C++中外部函数如何访问私有变量？ - WhoTFAmI的回答 - 知乎
+https://www.zhihu.com/question/521898260/answer/2394522797
+
+
+cmakelists
+    execute_process  调用命令和脚本
+
+C++浮点数float转int精度丢失解决
+    // round 对float进行四舍五入
+    float tt = 65.5329971;              // 内存中的实际存储是 65.5329971
+    int ans = static_cast<int>(1000*tt);        //65532
+    int ans2 = static_cast<int>(round(1000*tt));    //65533
+
+
+
+baidu.html: 判断点在圆内
+
+
+agv行业：AGV全名Automated Guided Vehicle，即自动导引车，装备有电磁、激光、SLAM、视觉等自动导航装置，能够沿规定的导航路径行驶，具有安全保护以及各种移载功能的运输车，主要用于工业。AGV不仅仅是一辆车，而是软硬一体的，智能化、数字化的为完成客户不同需求，匹配不同场景的一整套系统解决方案。
+
+
+
+
+
+
+
+
+
+
+
+
+    

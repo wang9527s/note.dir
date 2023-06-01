@@ -1,0 +1,31 @@
+一、SNI协议
+    英文链接：https://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/
+    org.kde
+
+    StatusNotifierItem:
+        具体应用程序
+    StatusNotifierWatcher:
+        dde-session-daemon中的trayicon模块
+    StatusNotifierHost:
+        dde-dock的系统托盘区域
+
+二、XEmbed协议
+
+    资料：https://github.com/bbidulock/wmsystray/blob/master/xembed/xembed.c
+
+    daemon：
+        代码func (m *TrayManager) eventHandleLoop() {}
+        底层的封装太多，看不懂
+
+
+三、系统托盘区域
+    1. dde-session-daemon重启，dock上微信、企业微信托盘图标会消失
+    2. dock重启，似乎会让dde-session-daemon更新TrayIcons
+
+    结论
+        dock重启会触发daemon中trayicon的数据更新
+
+    Q：当StatusNotifierWatcher(dde-session-daemon的trayicon)重启的时候，各个StatusNotifierItem会调用watcher的RegisterStatusNotifierItem方法。
+      那么item是如何知道需要向watcher注册自己的？是watcher启动的时候发送了什么消息吗？
+    A：可能是根据NameOwnerChanged，知道watcher重启了  org.freedesktop.DBus
+    

@@ -1,0 +1,45 @@
+AppImage文件打开报错
+    错误：The SUID sandbox helper binary was found, but is not configured correctly. \
+        Rather than run without sandboxing I'm aborting now. \
+        You need to make sure that /tmp/.mount_FluentHI3yPx/chrome-sandbox is owned \
+        by root and has mode 4755.
+       追踪与中断点陷阱
+    解决：
+        sudo sysctl kernel.unprivileged_userns_clone=1
+
+        # 这是什么步骤来在？？？
+        # ./*.AppImage --no-sandbox
+        # sudo su 中执行 sudo echo 'kernel.unprivileged_userns_clone=1' > /etc/sysctl.d/userns.conf
+
+    错误：dlopen(): error loading libfuse.so.2
+        AppImages require FUSE to run. 
+        You might still be able to extract the contents of this AppImage 
+        if you run it with the --appimage-extract option. 
+        See https://github.com/AppImage/AppImageKit/wiki/FUSE 
+        for more information
+    解决: sudo apt install libfuse2
+
+
+Linux下的VMware虚拟机在启动时报错误。
+    错误输出：Could not open /dev/vmmon: No such file or directory.Please make sure that the kernel module `vmmon’ is loaded.
+    解决方案：
+        在blos中禁用secure boot                              // 失败
+        sudo vmware-modconfig --console --install-all       // ok
+
+Linux卸载mware
+    sudo vmware-installer -u vmware-workstation
+        
+qtcreator  error: CMake was unable to find a build program corresponding to "Ninja". CMAKE_MAKE_PROGRAM is not set. You probably need to select a different build tool.
+    需要修改cmake配置
+    工具->选项->Kits中的构建套件配置
+        1. 编译器需要有内容
+        2. 调试器: System GDB at /usr/bin/gdb
+        3. Qt版本: Qt 5.11.3 in PATH (qt5)
+        4. CMake generator：Unix Makefiles
+        
+### visual studio 
+Error：应输入类型说明符
+&emsp;&emsp;指针变量命名和类名一样，命名冲突。
+
+
+遇到矩阵输出结果错误，想打印出矩阵看一下。qDebug()无法输出后不换行，cout等无法再控制台输出。最后将要输出的内容转换为字符串，保存到文件中。

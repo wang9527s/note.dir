@@ -1,0 +1,47 @@
+lsblk
+    lsblk 或者 lsblk -J
+    查看接入到系统中的块设备，默认输出分区、大小、挂载点等信息，一目了然：
+    sda      8:0    0 558.9G  0 disk
+    ├─sda1   8:1    0   488M  0 part
+    ├─sda2   8:2    0     1K  0 part
+    ├─sda5   8:5    0   7.6G  0 part
+    └─sda6   8:6    0 550.8G  0 part /
+    sdb      8:16   0 558.9G  0 disk
+    ├─sdb1   8:17   0     1K  0 part
+    └─sdb5   8:21   0 558.9G  0 part /journal
+    sdc      8:32   0   1.8T  0 disk /work
+    sr0     11:0    1  1024M  0 rom
+
+
+df -h
+    查看硬盘的使用情况
+    Filesystem      Size  Used Avail Use% Mounted on
+    udev             24G     0   24G   0% /dev
+    tmpfs           4.8G  2.1M  4.8G   1% /run
+    /dev/sda6       542G  148G  366G  29% /
+    tmpfs            24G     0   24G   0% /dev/shm
+    tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+    tmpfs            24G     0   24G   0% /sys/fs/cgroup
+    /dev/sdc        1.8T  1.2T  582G  67% /work
+    /dev/sdb5       551G  245G  278G  47% /journal
+
+df -k --output='size','used','avail' /
+       1K-块     已用    可用
+    15416264 10059936 4553512
+
+
+sudo fdisk -l
+    是常用的硬盘、分区操作工具
+
+lsscsi可以打印SCSI硬盘信息
+
+blkid命令可以打印块设备的信息：
+
+du -h --max-depth=1   统计当前文件夹各个目录的大小
+
+
+
+
+
+
+
