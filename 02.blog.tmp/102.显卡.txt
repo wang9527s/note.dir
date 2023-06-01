@@ -1,0 +1,36 @@
+1. 显卡驱动包
+    N卡/英伟达
+        探测N卡驱动  nvidia-detect
+        nvidia-driver        官方
+        nouveau              内核自带的（问题多）
+        nvidia-kernel-dkms
+
+    A卡/Amd
+        amdgpu-dkms
+
+    Intel
+        intelgpu-dkms
+
+
+2. 查看显卡设备和驱动信息
+    lshw -c video
+    lspci 查看外设信息 （显卡声卡等）
+        lspci -vvn | grep driver
+
+
+3. 禁用nouveau驱动
+    方法1
+        在 /etc/default/grub的 GRUB_CMDLINE_LINUX_DEFAULT行中追加 modprobe.blacklist=nouveau
+        sudo update-grub
+    方法2
+        在/etc/modprobe.d/blacklist.conf文件末尾追加
+            blacklist nouveau
+            options nouveau modeset=0
+        sudo update-initramfs -u
+
+
+4. 核显、集显、独显
+    核显：cpu中包含显卡模块
+    集显：显卡集成在主板上
+    独显：独立的一个显卡
+
