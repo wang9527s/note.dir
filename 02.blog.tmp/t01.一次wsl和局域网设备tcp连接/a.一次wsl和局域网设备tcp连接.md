@@ -1,7 +1,17 @@
 
+> wsl2 ununtu20.04 + windows 11 + iot设备
+
+### 背景
+
 想在wsl连接物理机和局域网的tcp server。  
-目前wsl(192.168.142.14)和物理机(192.168.31.250)可以建连，正常收发数据
+目前wsl(192.168.142.14)和物理机(192.168.31.250)可以建连，正常收发数据。
 wsl可以和局域网设备C(192.168.31.145)，可以建连，但wsl发送的数据，C无法收到
+
+wsl上运行的是tcp_client.py  
+windows上运行的是tcp_server.py
+iot上运行的是原有项目中的程序
+
+### 尝试修改windows设置
 
 **powershell**管理员权限启动，并设置
 
@@ -27,6 +37,8 @@ echo "Hello, server!" | nc 192.168.31.250 5016
 sudo tcpdump -i eth0 port 5016
 ```
 
+### 发现是设备C上demo的问题
+
 **C上换一个demo**
 
 替换成c/c++重新编写的tcp server，wsl和C可以建连 通信了
@@ -39,5 +51,19 @@ route delete 192.168.142.0 mask 255.255.255.0 192.168.31.250
 Remove-NetFirewallRule -DisplayName "Allow WSL2 TCP 5016"
 ```
 
+**最靠谱的是py和cpp的tcp client/server**
 
-**最靠谱的是py和cpp学的tcp client/server**
+**原因**，C上原本的程序，base_tools::GetBE16解析错误
+
+```cpp
+void AsyncTCPSocket::ProcessInput(char* data, size_t* len) {
+    ...
+
+    PacketLength pkt_len = base_tools::GetBE16(data);
+    if (*len < kPacketLenSize + pkt_len) {
+        return;
+    }
+
+    ...
+}
+```
