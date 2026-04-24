@@ -1,0 +1,29 @@
+name: xxMiWear
+options:
+  bundleIdPrefix: com.xx.xx.sdk
+  deploymentTarget:
+    watchOS: "10.0"
+  developmentLanguage: zh-Hans
+settings:
+  SWIFT_VERSION: "5.0"
+  TARGETED_DEVICE_FAMILY: "4"
+
+targets:
+  xxMiWear:
+    type: framework
+    platform: watchOS
+    sources:
+      - path: Sources
+        headerVisibility: public
+    settings:
+      base:
+        INFOPLIST_FILE: Info.plist
+        PRODUCT_BUNDLE_IDENTIFIER: com.xx.xx.sdk.xxmiwear
+        SDKROOT: watchos
+        DEVELOPMENT_TEAM: 5Z3RQE949K
+        CODE_SIGN_STYLE: Automatic
+        PRODUCT_NAME: xxMiWear
+        DEFINES_MODULE: YES
+        SWIFT_OBJC_BRIDGING_HEADER: ""
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0.0
