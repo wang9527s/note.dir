@@ -1,0 +1,8 @@
+platform :watchos, '6.2'
+
+target 'Lyraxx' do
+  use_frameworks! :linkage => :dynamic
+
+  pod 'xxPB',        :git => 'git@xx.com:xxbluetooth/xxpb.git',        :branch => 'master'
+  pod 'xxxCore',     :git => 'git@xx.com:xxbluetooth/xxxbtcore.git',   :branch => 'optimize/connect_branch'
+end
